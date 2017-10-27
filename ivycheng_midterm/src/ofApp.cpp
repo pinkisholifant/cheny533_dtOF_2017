@@ -11,6 +11,7 @@ void ofApp::setup(){
 //    myImage.loadImage("somethingColor.jpg");
 
     image.load("daymap.png");
+    //ofBackground("image");
     sound.load("sound.wav");
     sound.setVolume(0.8);
     sound.play();
@@ -143,7 +144,7 @@ void ofApp::keyReleased(int key){
 	else if (key == 'a' || key == 'A')
 	{
 		// 'A' toggle field animation
-		//bAnimateField = !bAnimateField;
+		bAnimateField = !bAnimateField;
 	}
 	
 	// adjust damping using up, down arrows

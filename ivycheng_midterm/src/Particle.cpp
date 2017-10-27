@@ -52,12 +52,30 @@ void star(float x, float y, float radius1, float radius2, int npoints) {
 }
 
 void Particle::draw(){
-	
-	ofPushStyle();
-	ofSetColor(ofRandom(0,255),0,0);
-    star(pos.x,pos.y, 4, 8, 7);
+                // draw the flow line
+            //ofDrawLine(pos, end);
+            
+            // draw the origin pos as a dot
+            //ofDrawCircle(pos,2);
+            ofPushStyle();
+            ofSetColor(ofRandom(0,255),0,0,95);
+            //ofSetColor(ofColor::fromHsb(200, 255, 200));
+            star(pos.x,pos.y, 5, 10, 7);
+            
+            //ofDrawCircle(pos, 1);
+            ofPopStyle();
 
-	//ofDrawCircle(pos, 1);
-	ofPopStyle();
-}
+            
+        }
+
+//	ofPushStyle();
+//	//ofSetColor(ofRandom(0,255),0,0);
+//    ofSetColor(ofColor::fromHsb(hue, 255, 200));
+//    star(pos.x,pos.y, 4, 8, 7);
+//
+//	//ofDrawCircle(pos, 1);
+//	ofPopStyle();
+
+
+
 

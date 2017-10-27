@@ -18,5 +18,7 @@ public:
 	void draw();
 	
 	ofVec3f pos, vel, acc;
-	
+	int nCols, nRows;
+    vector<ofVec3f> field;
+
 };

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "flowField2.app"
-               BlueprintName = "flowField2"
-               ReferencedContainer = "container:flowField2.xcodeproj">
+               BuildableName = "ivycheng_midterm.app"
+               BlueprintName = "ivycheng_midterm"
+               ReferencedContainer = "container:ivycheng_midterm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "flowField2.app"
-            BlueprintName = "flowField2"
-            ReferencedContainer = "container:flowField2.xcodeproj">
+            BuildableName = "ivycheng_midterm.app"
+            BlueprintName = "ivycheng_midterm"
+            ReferencedContainer = "container:ivycheng_midterm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "flowField2.app"
-            BlueprintName = "flowField2"
-            ReferencedContainer = "container:flowField2.xcodeproj">
+            BuildableName = "ivycheng_midterm.app"
+            BlueprintName = "ivycheng_midterm"
+            ReferencedContainer = "container:ivycheng_midterm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "flowField2.app"
-            BlueprintName = "flowField2"
-            ReferencedContainer = "container:flowField2.xcodeproj">
+            BuildableName = "ivycheng_midterm.app"
+            BlueprintName = "ivycheng_midterm"
+            ReferencedContainer = "container:ivycheng_midterm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
