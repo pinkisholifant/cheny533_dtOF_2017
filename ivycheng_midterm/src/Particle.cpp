@@ -56,11 +56,13 @@ void Particle::draw(){
             //ofDrawLine(pos, end);
             
             // draw the origin pos as a dot
-            //ofDrawCircle(pos,2);
+    
             ofPushStyle();
             ofSetColor(ofRandom(0,255),0,0,95);
+            ofDrawCircle(pos,2);
             //ofSetColor(ofColor::fromHsb(200, 255, 200));
-            star(pos.x,pos.y, 5, 10, 7);
+            //ofDrawCircle(pos.x, pos.y, 2);
+            //star(pos.x,pos.y, 5, 10, 7);
             
             //ofDrawCircle(pos, 1);
             ofPopStyle();

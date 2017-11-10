@@ -24,7 +24,7 @@ void ofApp::setup(){
 	flowField.initNoise(0.01);
 	
 	// make a bunch of particles
-	for (int i=0; i<304; i++){
+	for (int i=0; i<18240; i++){
 		
 		Particle p;
 		p.pos.x = ofRandom(0, ofGetWidth());
